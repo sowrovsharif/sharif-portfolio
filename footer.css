@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    padding: 20px;
+}
+.hr{
+    margin-top: 40px;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(34, 34, 34) 0 10%, rgba(255, 255, 255, 0) 10%);
+    background-position: top;
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+}
+
+.tandp{
+    --bs-gutter-x:0rem!important;
+
+}
+.tandp .col-xl-4{
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+}
